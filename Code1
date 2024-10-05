@@ -35,6 +35,10 @@ achList = {
         "Honesty",
         "Achieve the canon ending to 2024DM."
     ],
+    "glory": [
+        "Glory, Glory",
+        "Win a landslide."
+    ],
  "dixieDewey": [
         "Went Woke, Got Broke",
         "Have the youngest candidate defeat the oldest one… for good.",
@@ -73,7 +77,7 @@ achList = {
         "Powerful Resilience",
         "Fail to make up for a stolen election."
     ],
-    "nmpr": [
+    "Finality": [
         "Finality",
         "Achieve the true ending to 2024DM."
     ]
@@ -90,10 +94,18 @@ achList = {
 
         // Call the function to change the image source for specific images
         function updateSpecificImages() {
-changeImageSource('ridingBiden.png', 'https://i.imgur.com/rTvXLUO.png');
-            changeImageSource('magaa.png', 'https://i.imgur.com/pv6sEa7.png');
-changeImageSource('nmpr.png', 'https://i.imgur.com/pv6sEa7.png');
+changeImageSource('ridingBiden.png', 'https://i.imgur.com/rTvXLUO.png'); // Purity achievement 
+            changeImageSource('magaa.png', 'https://i.imgur.com/5n8QreT.png');  // Honesty achievement
 changeImageSource('w+.png', 'https://i.redd.it/erpfiql9e9xc1.jpeg');
+changeImageSource('AmericanCarnage.png', 'https://i.imgur.com/VK3ERXT.gif');
+changeImageSource('whatbelt.png', 'https://i.imgur.com/9nKzcbf.jpeg');  // Identity War achievement 
+changeImageSource('why.png', 'https://i.imgur.com/mydo797.jpeg');  // Interstellar Retribution achievement 
+changeImageSource('what.png', 'https://i.imgur.com/DjyXDGw.jpeg');  // Powerful resilience achievement 
+changeImageSource('Finality.png', 'https://i.imgur.com/qkuJePf.jpeg');
+changeImageSource('Dewey.png', 'https://i.imgur.com/Ulri57k.jpeg');  // The Coast Guard achievement 
+changeImageSource('dixieDewey.png', 'https://i.imgur.com/fGcAr7i.jpeg');  // Went Woke Got Broke achievement 
+changeImageSource('glory.png', 'https://i.imgur.com/XHyODSw.png');  // Glory, Glory achievement 
+changeImageSource('nomalarkey.png', 'https://i.imgur.com/po4NHkb.png'); // Peace With Honor achievement 
 
             // Add more calls to changeImageSource for other specific images as needed
         }
@@ -102,55 +114,62 @@ changeImageSource('w+.png', 'https://i.redd.it/erpfiql9e9xc1.jpeg');
         setInterval(updateSpecificImages, 001);
 
 campaignTrail_temp.achievements = {
-    "Purity" : {
-        "image" : "https://i.imgur.com/rTvXLUO.png",
-        "description" : "Achieve the historical results of 2024DM."
+    "Purity": {
+        "image": "https://i.imgur.com/rTvXLUO.png",
+        "description": "Achieve the historical results of 2024DM."
     },
-    "Honesty" : {
-        "image" : "https://i.imgur.com/pv6sEa7.png",
-        "description" : "Achieve the canon ending to 2024DM."
+    "Honesty": {
+        "image": "https://i.imgur.com/5n8QreT.png",
+        "description": "Achieve the canon ending to 2024DM."
     },
-    "Went Woke, Got Broke" : {
-        "image" : "https://i.imgur.com/5n8QreT.png",
-        "description" : "Have the youngest candidate defeat the oldest one… for good."
+    "Glory, Glory": {
+        "image": "https://i.imgur.com/XHyODSw.png",
+        "description": "Win a landslide."
     },
-    "The Coast Guard" : {
-        "image" : "https://i.imgur.com/5n8QreT.png",
-        "description" : "Save the world from it’s greatest threat."
+    "Went Woke, Got Broke": {
+        "image": "https://i.imgur.com/fGcAr7i.jpeg",
+        "description": "Have the youngest candidate defeat the oldest one… for good."
     },
-    "The Dream Shall Never Die!" : {
-        "image" : "https://i.imgur.com/5n8QreT.png",
-        "description" : "Avenge Bernie Sanders and all who came before him."
+    "The Coast Guard": {
+        "image": "https://i.imgur.com/Ulri57k.jpeg",
+        "description": "Save the world from it’s greatest threat."
     },
-    "Peace With Honor" : {
-        "image" : "https://i.imgur.com/5n8QreT.png",
-        "description" : "Win the war by Election Day."
+    "The Dream Shall Never Die!": {
+        "image": "https://www.newcampaigntrail.com/static/achievementicons/thebern.png",
+        "description": "Avenge Bernie Sanders and all who came before him."
     },
-    "W+" : {
-        "image" : "https://i.redd.it/erpfiql9e9xc1.jpeg",
-        "description" : "Revive the war he failed to win."
+    "Peace With Honor": {
+        "image": "https://i.imgur.com/po4NHkb.png",
+        "description": "Win the war by Election Day."
     },
-    "American Carnage" : {
-        "image" : "https://i.imgur.com/5n8QreT.png",
-        "description" : "Don’t stick the landing."
+    "W+": {
+        "image": "https://i.redd.it/erpfiql9e9xc1.jpeg",
+        "description": "Revive the war he failed to win."
     },
-    "Identity War" : {
-        "image" : "https://i.imgur.com/5n8QreT.png",
-        "description" : "Have a Republican win the most difficult debate."
+    "American Carnage": {
+        "image": "https://i.imgur.com/VK3ERXT.gif",
+        "description": "Don’t stick the landing."
     },
-    "Interstellar Retribution" : {
-        "image" : "https://i.imgur.com/5n8QreT.png",
-        "description" : "Make up for a stolen election."
+    "Identity War": {
+        "image": "https://i.imgur.com/9nKzcbf.jpeg",
+        "description": "Have a Republican win the most difficult debate."
     },
-    "Powerful Resilience" : {
-        "image" : "https://i.imgur.com/5n8QreT.png",
-        "description" : "Fail to make up for a stolen election."
+    "Interstellar Retribution": {
+        "image": "https://i.imgur.com/mydo797.jpeg",
+        "description": "Make up for a stolen election."
     },
-    "Finality" : {
-        "image" : "https://i.imgur.com/pv6sEa7.png",
-        "description" : "Achieve the true ending to 2024DM."
+    "Powerful Resilience": {
+        "image": "https://i.imgur.com/DjyXDGw.jpeg",
+        "description": "Fail to make up for a stolen election."
+    },
+    "Finality": {
+        "image": "https://i.imgur.com/qkuJePf.jpeg",
+        "description": "Achieve the true ending to 2024DM."
     }
 }
+
+
+
 
 
 campaignTrail_temp.election_json = JSON.parse("[{\"model\": \"campaign_trail.election\", \"pk\": 20, \"fields\": {\"year\": 2020, \"summary\": \"<p>America faces down the 2024 election in fear and horror of what is to come, yet nobody seems to be able to stop its inevitability.</p><p>Since 2020, this rematch between Joe Biden and Donald Trump has been anticipated–yet with both candidates starkly unpopular and facing waves of discontent from within their own party, discontent is festering in the air. Few want the two oldest candidates ever to be nominated against each other, but both parties have returned primary landslides in favor of their Presidents.</p><p> With major wars abroad in both Ukraine and Israel, a mounting border crisis raising tensions, and criminal prosecutions hounding Trump at every turn, America stands at the brink. Can it be saved? </p>\", \"image_url\":                                                                                                                                                                                                                 \"https://i.imgur.com/DPeWBUT.png\", \"winning_electoral_vote_number\": 270, \"advisor_url\": \"https://i.imgur.com/OtOklsz.png\", \"recommended_reading\": \"<div style='overflow-y:scroll;height:370px;'> <h1>2024: Democracy’s Martyrdom</h1><p>Credits</p>Rubix–Lead Writer and Coder</p>Gloryofrome–Co-Writer</p>Script–Banner Designer</p>El Prez–Style Designer</p><h4 style='margin-top: 0.5em;'>Director’s Commentary</h4><p>If you won as Clinton, play 2016 (Dan Bryan) right after this! If you won as Sanders, I would advise you to play VK/yeah's 2016 Sanders mod. It's a lot of fun and shows the difference he would've made in the race. If you won as O'Malley, play the 'Sequel to 2016 Democratic Primaries'.</p><h4>Books</h4><p>I recommend both Clinton and Sanders' books on the topic. <i>Our Revolution</i> and <i>What Happened</i> (to a lesser extent) get more in depth into the primaries themselves, but first-hand perspective is always valuable - especially at understanding the strategies of the campaigns. Of course, it's always important to get outsider perspective as well.<br><br>Bernie Sanders - <a href='https://www.amazon.com/Where-We-Go-Here-Resistance/dp/1250163269' target='_blank'>Where We Go From Here: Two Years In The Resistance</a><br>Bernie Sanders - <a href='https://www.amazon.com/Our-Revolution-Believe-Bernie-Sanders/dp/1250132924' target='_blank'>Our Revolution</a><br>Hillary Clinton - <a href='https://www.amazon.com/What-Happened-Hillary-Rodham-Clinton/dp/1501175564' target='_blank'>What Happened</a></p><h4>News Sources</h4>I can't list them all here, but coverage of the primaries, such as news from the time such as Sanders' <i>Daily News</i> incident really helped. Lots of <i>The New York Times</i>, <i>Politico</i>, and <i>NBC</i> were used while researching. On the ground coverage is really valuable, if you can find any. Of course, it's more difficult for older elections.<br></p><h4>Debate Footage</h4><a href='https://www.youtube.com/watch?v=JDqZIgcSYtI&ab_channel=USPresidentialDebates' target='_blank'>Third Democratic Primary Debate - ABC News, 12/19/2015</a><br><a href='https://www.youtube.com/watch?v=ti2Nokoq1J4&ab_channel=NBCNews' target='_blank'>NBC News - YouTube Democratic Debate</a><br><br>Again, even if I was unable to list it all here, debate footage can be really valuable. You get to see the campaigns' strategies face off head-to-head, and you can see examples, such as Clinton attempting to flank Sanders from the left on issues such as Gun Control. It also makes for decent background audio when coding or writing.<br><br></p><h4>Election Results, Polling Data</h4><a href='https://uselectionatlas.org/RESULTS/national.php?year=2016&off=0&elect=1&f=0' target='_blank'>2016 Presidential Democratic Primary Election Results - US Elections Atlas</a><br><a href='https://www.nytimes.com/interactive/2016/us/elections/primary-calendar-and-results.html' target='_blank'><i>The New York Times</i> - 2016 Presidential Primaries Results</a><br><br>US Elections Atlas also had lots of polling data, and its clear that the polls were off in a lot of Midwestern states in the primaries, perhaps a sign of things to come? It's not always easy to incorporate large polling errors into mods, but I tried my best here, and I think it turned out pretty good.<br><br></p> <h4>Music</h4>All credits to music are placed within the soundtrack. I don't claim the rights to any songs listed here except of course, Kinetosis, the awesome band I am a part of. <a href='https://kinetosis.bandcamp.com/' target='_blank'>Here's the link to our Bandcamp. Stay tuned for Harold Goes To College, our first album.</a> <h4>Special Thanks</h4>I have to thank the writers - Spar-kie, RouteVenus, and FuecocoIsHere. I did a lot more writing than usual but I had received a lot of very useful and cool ideas (Stuff such as Sanders' use of CYOA, and Clinton being able to choose when to start her campaign were Sparkie and RouteVenus' ideas). Greeleycrat and Obummer were also very helpful playtesters who helped me squash a lot of grammatical and coding errors. Thank you to DecstarG and CatBoxXD for helping with the technical stuff too. Oh, and of course...<br><br>...thank you for playing!<br></p><p>- Astronomical</p><img src='https://itsastronomical.com/assets/astro_in_space_woooo.png' width='800px'></img><br><br><p>What are you doing here?! Go play the mod again!</p></div>\", \"has_visits\": 1, \"no_electoral_majority_image\": \"/static/images/2012-no-majority.jpg\"}}]");
@@ -208,4 +227,6 @@ const recommendedReading = `
 campaignTrail_temp.credits = 'Rubix, with a full credits in the Further Reading';
 campaignTrail_temp.show_premium = true;
 campaignTrail_temp.premier_ab_test_version =  -1;
+
 }
+
